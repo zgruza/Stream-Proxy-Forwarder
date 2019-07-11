@@ -8,9 +8,10 @@ just change that parameters in code ($v variable)</br>
 ```
 https://yourdomain.com/web_stream.php?q=PATH_TO_CONTENT
 ```
-
+# Encryption
 You can also Encrypt real path via 
 ```
 Scramble("http://real_path_to_file..");
 Descramble("%SCRAMBLED_HASH%"); (Just uncommend this function in web_stream.php)
 ```
+Encrypt/Decrypt functions are Included in web_stream.php
